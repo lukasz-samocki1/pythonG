@@ -183,4 +183,4 @@ if (Test-path -path "x:\windows\system32\cmtrace.exe"){
 #    Copy-PSModuleToFolder -Name Lenovo.Client.Scripting -Destination "$PowerShellSavePath\Modules"
 #}
 #Restart
-#restart-computer
+restart-computer
