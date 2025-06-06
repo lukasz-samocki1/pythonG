@@ -208,7 +208,7 @@ $teamsPath = "$env:Temp\MSTeams-x64.msix"
 Invoke-WebRequest -Uri $teamsUrl -OutFile $teamsPath
 Add-AppxProvisionedPackage -Online -PackagePath $teamsPath -SkipLicense
 
-Write-Host "✅ Instalacja aplikacji zakończona."
+Write-Host "Instalacja aplikacji zakończona"
 
 
 
